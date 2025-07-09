@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShapeMaster</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <div class="toolbar">
+            <button data-tool="select">Select</button>
+            <button data-tool="rectangle">Rectangle</button>
+            <button data-tool="circle">Circle</button>
+            <button data-tool="triangle">Triangle</button>
+            <button data-tool="polygon">Polygon</button>
+        </div>
+        <canvas id="canvas" width="800" height="600"></canvas>
+        <div class="sidebar">
+            <h3>Properties</h3>
+            <div id="properties"></div>
+            <h3>Style</h3>
+            <div id="style-controls"></div>
+            <h3>Layers</h3>
+            <ul id="layers"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
